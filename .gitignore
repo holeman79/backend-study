@@ -1,0 +1,15 @@
+# OS / IDE
+.DS_Store
+.idea/
+*.iml
+.vscode/
+
+# Claude Code 세션 파일 (레포 밖 관리)
+.claude/
+**/.claude/
+
+# 실험 중 생기는 큰 산출물 — 생성 스크립트만 커밋하고 결과 데이터는 커밋하지 않는다
+*.tsv
+*.csv.gz
+*.sql.gz
+*.dump
